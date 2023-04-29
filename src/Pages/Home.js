@@ -1,37 +1,40 @@
-import { Box, Card, CardFooter, CardHeader, Image } from "@chakra-ui/react";
+// import { ChevronDownIcon } from "@chakra-ui/icons";
+// import { Box, Button, Flex, Image, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
+// // import { Dropdown } from './Dropdown';
+
+// function Home() {
+//   return (
+//     <Flex h="86vh">
+//       <Box flex={1} display="flex" alignItems="end" alignSelf="center" justifyContent="center" border="1px" h="50vh" bg="red">
+//         <Menu>
+//           <MenuButton as={Button} rightIcon={<ChevronDownIcon />} textAlign={"left"}>
+//             Type of Services
+//           </MenuButton>
+//           <MenuList>
+//             <MenuItem>Home</MenuItem>
+//             <MenuItem>Services</MenuItem>
+//             <MenuItem>About Us</MenuItem>
+//             <MenuItem>Contact</MenuItem>
+//           </MenuList>
+//         </Menu>
+//       </Box>
+//       <Box flex={2} position="relative">
+//         <Image src="https://via.placeholder.com/1800x1200.png" alt="Background Image" objectFit="cover" objectPosition="right" h="100%" />
+//       </Box>
+//     </Flex>
+//   );
+// }
+
+// export default Home;
+
 import React from "react";
-import hero_image from "../assets/hero_image.jpg";
 
 const Home = () => {
   return (
     <>
-      <div>
-        <div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "right"
-              // height: "100vh"
-            }}
-
-            // justifyContent="center"
-            // justifyItems="center"
-            // justifySelf="center"
-          >
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              height: "100px",
-              width: "100px",
-              backgroundColor: "black"
-            }}
-          >
-            skd
-          </div>
-        </div>
+      <div class="bg-blue-700 text-4xl h-screen grid-cols-2 flex justify-center justify-self-center	place-content-center	">
+        <div class="bg-green-400 w-1/3">A</div>
+        <div class="bg-cyan-500 w-2/3 h-full">B</div>
       </div>
     </>
   );
