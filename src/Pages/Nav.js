@@ -183,7 +183,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="py-10 px-9 flex justify-between bg-ninth text-fourth">
+      <div className="py-8 px-9 flex justify-between bg-ninth text-fourth">
         <div className="px-9 flex justify-between w-11/12  m-auto">
           <div className="text-3xl font-bold px-5 text-center justify-center align-middle py-1">Mayds</div>
           <div className="sm:hidden">

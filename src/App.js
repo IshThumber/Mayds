@@ -1,10 +1,10 @@
 // import "./App.css";
+import Nav from "./Pages/Nav";
 import Home from "./Pages/Home";
 import Services from "./Pages/Services";
 import Stories from "./Pages/Stories";
 import Testimonials from "./Pages/Testimonials";
 import Footer from "./Pages/Footer";
-import Nav from "./Pages/Nav";
 
 function App() {
   return (

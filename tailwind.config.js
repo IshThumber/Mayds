@@ -14,8 +14,11 @@ module.exports = {
         eighth: "#57A99A",
         ninth: "#142850",
         tenth: "#00909E"
+      },
+      backgroundImage: {
+        hero: "url('/src/assets/four.png')"
       }
     }
   },
-  plugins: []
+  plugins: [require("daisyui")]
 };
