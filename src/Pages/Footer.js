@@ -39,6 +39,11 @@ const Footer = () => {
                   1
                 </a>
               </li>
+              <li className="mt-3">
+                <a href className="border-b-2 border-transparent hocus:text-primary-500 hocus:border-primary-500 pb-1 transition duration-300">
+                  1
+                </a>
+              </li>
             </ul>
           </div>
           <div className="md:w-1/5">

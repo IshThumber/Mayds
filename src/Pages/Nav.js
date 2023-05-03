@@ -173,6 +173,7 @@
 // export default NavBar;
 
 import React, { useState } from "react";
+import Mayds from "../assets/Mayds.png";
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -185,7 +186,10 @@ const NavBar = () => {
     <>
       <div className="py-8 px-9 flex justify-between bg-ninth text-fourth">
         <div className="px-9 flex justify-between w-11/12  m-auto">
-          <div className="text-3xl font-bold px-5 text-center justify-center align-middle py-1">Mayds</div>
+          <div className="text-3xl font-bold px-5 text-center justify-center align-middle py-1">
+            
+            <img src={Mayds} alt="" className="h-8 object-contain aspect-auto	" />
+          </div>
           <div className="sm:hidden">
             <button onClick={handleMenuToggle} className="block text-gray-400 hover:text-fourth focus:text-fourth focus:outline-none">
               <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

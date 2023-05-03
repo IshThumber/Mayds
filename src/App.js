@@ -5,6 +5,7 @@ import Services from "./Pages/Services";
 import Stories from "./Pages/Stories";
 import Testimonials from "./Pages/Testimonials";
 import Footer from "./Pages/Footer";
+import FAQs from "./Pages/FAQs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Services />
         <Stories />
         <Testimonials />
+        <FAQs />
 
         <footer>
           <Footer />

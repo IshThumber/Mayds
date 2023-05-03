@@ -52,7 +52,7 @@ const Services = () => {
     <>
       <div className="relative ">
         <div className="flex flex-col items-center md:items-stretch md:flex-row flex-wrap md:justify-center max-w-screen-lg mx-auto py-20 md:py-24 ">
-          <h2 className="w-full  text-center font-bold text-5xl">Services</h2>
+          <h2 className="w-full text-center font-bold text-5xl">Services</h2>
           <div className="mt-10 w-full" />
           {defaultCards.map((card, i) => (
             <div className="md:w-1/2 lg:w-1/3 max-w-sm ">
