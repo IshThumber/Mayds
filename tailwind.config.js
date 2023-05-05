@@ -16,7 +16,8 @@ module.exports = {
         tenth: "#00909E"
       },
       backgroundImage: {
-        hero: "url('/src/assets/four.png')"
+        hero: "url('/src/assets/four.png')",
+        // hero: "url('/src/assets/heroo.jpg')"
       }
     }
   },
