@@ -283,8 +283,8 @@ const Navbar = () => {
                 <FaBars />
               </button>
               {isMenuOpen && (
-                <div class="absolute top-0 left-0 w-full">
-                  <div class="p-5 bg-first border rounded shadow-sm z-auto">
+                <div class="absolute top-0 left-0 w-full z-50">
+                  <div class="p-5 border rounded shadow-sm bg-ninth">
                     <div class="flex items-center justify-between mb-4">
                       <div>
                         <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">

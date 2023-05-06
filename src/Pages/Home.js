@@ -111,24 +111,22 @@ const Header = () => {
     // </div>
     <>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="flex flex-col-reverse items-center justify-between lg:flex-row py-4">
+        <div className="flex flex-col-reverse items-center justify-between lg:flex-row py-4 md:gap-11">
           <div className="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
-            <div className="max-w-xl mb-6">
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <div className="max-w-xl mb-6 lg:mt-0 md:mt-0 mt-10">
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none lg:text-left text-center">
                 Design Your Ideal Clean: Create Your Own Maid Service Plan Today!
               </h2>
             </div>
-            <div className="flex flex-col items-center md:flex-row">
-              <button class="inline-flex items-center px-4 py-2 bg-first mr-3 hover:bg-red-700 text-white text-sm font-medium rounded-md">
+            <div className="flex flex-row items-center md:flex-row gap-3 lg:justify-start justify-center">
+              <button class="inline-flex items-center px-4 py-2 bg-first  hover:bg-red-700 text-white text-sm font-medium rounded-md">
                 Services
               </button>
-              <button class="inline-flex items-center px-4 py-2 bg-first ml-3 hover:bg-red-700 text-white text-sm font-medium rounded-md">
-                Pricing
-              </button>
+              <button class="inline-flex items-center px-4 py-2 bg-first  hover:bg-red-700 text-white text-sm font-medium rounded-md">Pricing</button>
             </div>
           </div>
           <div className="relative lg:w-2/3">
-            <img className="object-cover w-full rounded shadow-lg hsm:h-96 md:mb-8" src={hero} alt="" />
+            <img className="object-cover w-full rounded shadow-lg hsm:h-96 md:mb-8 -z-10" src={hero} alt="" />
           </div>
         </div>
       </div>
