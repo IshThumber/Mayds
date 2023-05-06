@@ -13,10 +13,10 @@ module.exports = {
         seventh: "#76DBD1",
         eighth: "#57A99A",
         ninth: "#142850",
-        tenth: "#00909E"
+        tenth: "#00909E",
       },
       backgroundImage: {
-        hero: "url('/src/assets/four.png')",
+        hero: "url('/src/assets/four.png')"
         // hero: "url('/src/assets/heroo.jpg')"
       }
     }
